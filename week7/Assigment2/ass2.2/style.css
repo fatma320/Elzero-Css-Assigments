@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    background-color: #009788;
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    text-transform: capitalize;
+    color: white;
+}
+
+div::after {
+    content: "";
+    background: white;
+    position: absolute;
+    width: 55px;
+    height: 100%;
+    top: 0px;
+    left: -25px;
+    transform: skew(20deg);
+}
+
+div::before {
+    content: "";
+    background-color: #009788;
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    top: 0px;
+    left: -10px;
+    transform: skew(20deg);
+    z-index: 2;
+}
