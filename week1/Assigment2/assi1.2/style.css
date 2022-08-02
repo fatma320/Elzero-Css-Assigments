@@ -1,0 +1,32 @@
+.shape-1{
+border-left: 5px red solid;
+width: 400px;
+margin: 20px;
+background-color: rgb(224, 216, 208);
+background-size: 200px;
+font-size: large;
+padding: 20px;
+
+}
+.shape-2{
+    border-left: 5px red solid;
+    width: 400px;
+    margin: 20px;
+    background-color: rgb(224, 216, 208);
+    background-size: 200px;
+    font-size: large;
+    visibility: hidden;
+    padding: 20px;
+    
+    }
+
+    .shape-3{
+        border-left: 5px green solid;
+        width: 400px;
+        margin: 20px;
+        background-color: rgb(224, 216, 208);
+        background-size: 200px;
+        font-size: large;
+        padding: 20px;
+        
+        }

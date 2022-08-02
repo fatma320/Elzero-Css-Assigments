@@ -1,0 +1,29 @@
+.assign-2-shape-1 {
+    width: 400px;
+    height: 400px;
+    background-image: url("/Assigment1/css.jbg.png");
+    background-repeat: no-repeat;
+}
+
+.assign-2-shape-2 {
+    width: 400px;
+    height: 400px;
+    background-image: url("/Assigment1/css.jbg.png");
+    background-repeat: repeat-y;
+    background-position: right 10000px;
+}
+
+.assign-2-shape-3 {
+    width: 400px;
+    height: 400px;
+    background-image: url("/Assigment1/css.jbg.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.assign-2-shape-4 {
+    width: 400px;
+    height: 400px;
+    background-image: url("/Assigment1/css.jbg.png");
+    background-repeat: repeat;
+}
