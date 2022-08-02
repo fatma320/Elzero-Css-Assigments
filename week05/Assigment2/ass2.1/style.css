@@ -1,0 +1,16 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #EEE;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 4px solid rgb(0, 140, 255);
+    border-right: 4px solid orangered;
+    margin: 20px auto;
+    color: orangered;
+    font-weight: bold;
+
+}
