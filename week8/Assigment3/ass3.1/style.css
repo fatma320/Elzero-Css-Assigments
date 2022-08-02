@@ -1,0 +1,10 @@
+* {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media print {
+    div {
+        font-size: 40px;
+    }
+}
